@@ -296,7 +296,7 @@ padding-bottom: 30px;
 .first-feature::before {
 	content: '';
 	background-image: url(../img/icons/1.png);
-	poon: absitisolute;
+	position: absolute;
 	width: 64px;
 	height: 64px;
 	top: 0;
