@@ -68,7 +68,7 @@ padding-bottom: 30px;
 	border: 2px solid #ffffff;
 }
 /*////////////////////////////////*/
-.header__logo-link {
+.logo-link {
 	color: #fff;
 	font-size: 24px;
 	font-weight: 700;
@@ -88,11 +88,11 @@ padding-bottom: 30px;
 .header__socials {
 	margin-left: 20px;
 }
-.header__socials-link {
+.socials-link {
 	display: inline-block;
 	position: relative;
 }
-.header__socials-link::after {
+.socials-link::after {
 	content: '';
 	display: block;
 }
@@ -166,6 +166,11 @@ padding-bottom: 30px;
 	-ms-align-items: center;
 	align-items: center;
 }
+
+.slider__item:focus {
+	outline: none;
+}
+
 .section__subtitle {
 	color: #464646;
 	font-size: 30px;
@@ -233,6 +238,10 @@ padding-bottom: 30px;
 	border-left: 2px solid gray;
 	border-bottom: 2px solid gray;
 	position: relative;
+}
+
+.slick-arrow:focus {
+	outline: none;
 }
 
 /*History section styles*/
@@ -388,7 +397,7 @@ padding-bottom: 30px;
 	flex-wrap: wrap;
 }
 
-.examples__inner_header-img {
+.gallery-img {
 	width: 230px;
 	height: 230px;
 }
@@ -410,14 +419,14 @@ padding-bottom: 30px;
 	left: 45px;
 	}
 
-.examples__inner_body {
+.gallery__text_body {
 	display: flex;
 	align-items: space-between;
 	justify-content: space-between;
 	flex-wrap: wrap;
 }
 
-.examples__inner_body p {
+.gallery__text_body p {
 	padding-top: 55px;
 	max-width: 420px;
 }
@@ -428,7 +437,7 @@ padding-bottom: 30px;
 	padding: 75px 0 10px;
 }
 
-.comments__inner_header { /*Оптимизировать!*/
+.comments__inner_header {
 	text-align: center;
 }
 
@@ -489,11 +498,6 @@ padding-bottom: 30px;
 	justify-content: center;
 }
 
-.photos__inner_header-img {
-	width: 230px;
-	height: 230px;
-}
-
 .photos__inner_header .section__title {
 	max-width: 275px;
 	padding: 65px 0 0 0;
@@ -512,18 +516,6 @@ padding-bottom: 30px;
 	bottom: 0;
 	left: 0;
 	}
-
-.photos__inner_body {
-	display: flex;
-	align-items: space-between;
-	justify-content: space-between;
-	flex-wrap: wrap;
-}
-
-.photos__inner_body p {
-	padding-top: 55px;
-	max-width: 420px;
-}
 
 /*Footer styles*/
 
@@ -547,18 +539,6 @@ padding-bottom: 30px;
 
 .footer__nav-list_col {
 	padding-right: 55px;
-}
-
-.footer__socials {
-	margin-left: 20px;
-}
-.footer__socials-link {
-	display: inline-block;
-	position: relative;
-}
-.footer__socials-link::after {
-	content: '';
-	display: block;
 }
 .footer__socials-link_tw {
 	margin-left: 18px;
@@ -585,7 +565,7 @@ padding-bottom: 30px;
 	background: url('../img/icons/footer_gg.png');
 }
 
-.footer__inner .header__logo {
+.footer__logo {
 	padding-right: 550px;
 	padding-bottom: 70px;
 }
