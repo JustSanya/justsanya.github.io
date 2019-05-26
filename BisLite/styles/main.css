@@ -550,6 +550,12 @@ hr{
     font-size: 14px;
     font-weight: 400;
 }
+.number {
+    color: #363636;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
 .numbers{
     margin-top: 20px;
 }
