@@ -142,6 +142,10 @@
     .footer__logo {
         padding-bottom: 30px;
     }
+    .example-item-big, .photos-item-big{
+        order: -1;
+        flex-basis: 100%;
+    }
 }
 
 @media screen and (max-width: 630px){
