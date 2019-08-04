@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'HammersmithOne';
+    font-weight: normal;
+    font-style: normal;
+    src:url(../fonts/HammersmithOne-Regular/HammersmithOne-Regular.eot);
+    src:url(../fonts/HammersmithOne-Regular/HammersmithOne-Regular.eot?#iefix) format("embedded-opentype"),
+    url(../fonts/HammersmithOne-Regular/HammersmithOne-Regular.woff) format("woff"),
+    url(../fonts/HammersmithOne-Regular/HammersmithOne-Regular.ttf) format("truetype");
+}
+@font-face {
+    font-family: 'PlayfairDisplay';
+    font-weight: normal;
+    font-style: normal;
+    src:url(../fonts/PlayfairDisplay-Regular/PlayfairDisplay-Regular.eot);
+    src:url(../fonts/PlayfairDisplay-Regular/PlayfairDisplay-Regular.eot?#iefix) format("embedded-opentype"),
+    url(../fonts/PlayfairDisplay-Regular/PlayfairDisplay-Regular.woff) format("woff"),
+    url(../fonts/PlayfairDisplay-Regular/PlayfairDisplay-Regular.ttf) format("truetype");
+}
+@font-face {
+    font-family: 'PlayfairDisplay';
+    font-weight: bold;
+    font-style: normal;
+    src:url(../fonts/PlayfairDisplay-Bold/PlayfairDisplay-Bold.eot);
+    src:url(../fonts/PlayfairDisplay-Bold/PlayfairDisplay-Bold.eot?#iefix) format("embedded-opentype"),
+    url(../fonts/PlayfairDisplay-Bold/PlayfairDisplay-Bold.woff) format("woff"),
+    url(../fonts/PlayfairDisplay-Bold/PlayfairDisplay-Bold.ttf) format("truetype");
+}
+@font-face {
+    font-family: 'PlayfairDisplay';
+    font-weight: 900;
+    font-style: normal;
+    src:url(../fonts/PlayfairDisplay-Black/PlayfairDisplay-Black.eot);
+    src:url(../fonts/PlayfairDisplay-Black/PlayfairDisplay-Black.eot?#iefix) format("embedded-opentype"),
+    url(../fonts/PlayfairDisplay-Black/PlayfairDisplay-Black.woff) format("woff"),
+    url(../fonts/PlayfairDisplay-Black/PlayfairDisplay-Black.ttf) format("truetype");
+}
+@font-face {
+    font-family: 'Roboto';
+    font-weight: normal;
+    font-style: normal;
+    src:url(../fonts/Roboto-Regular/Roboto-Regular.eot);
+    src:url(../fonts/Roboto-Regular/Roboto-Regular.eot?#iefix) format("embedded-opentype"),
+    url(../fonts/Roboto-Regular/Roboto-Regular.woff) format("woff"),
+    url(../fonts/Roboto-Regular/Roboto-Regular.ttf) format("truetype");
+}
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-style: normal;
+    src:url(../fonts/Roboto-Thin/Roboto-Thin.eot);
+    src:url(../fonts/Roboto-Thin/Roboto-Thin.eot?#iefix) format("embedded-opentype"),
+    url(../fonts/Roboto-Thin/Roboto-Thin.woff) format("woff"),
+    url(../fonts/Roboto-Thin/Roboto-Thin.ttf) format("truetype");
+}
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-style: normal;
+    src:url(../fonts/Roboto-Light/Roboto-Light.eot);
+    src:url(../fonts/Roboto-Light/Roboto-Light.eot#iefix) format("embedded-opentype"),
+    url(../fonts/Roboto-Light/Roboto-Light.woff) format("woff"),
+    url(../fonts/Roboto-Light/Roboto-Light.ttf) format("truetype");
+}
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-style: normal;
+    src:url(../fonts/Roboto-Black/Roboto-Black.eot);
+    src:url(../fonts/Roboto-Black/Roboto-Black.eot#iefix) format("embedded-opentype"),
+    url(../fonts/Roboto-Black/Roboto-Black.woff) format("woff"),
+    url(../fonts/Roboto-Black/Roboto-Black.ttf) format("truetype");
+}
