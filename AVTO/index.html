@@ -5,7 +5,9 @@
     <title>АвтоВыкуп</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/fonts.css">
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/responsive.css">
 </head>
 <body>
     <header class="header">
@@ -24,7 +26,7 @@
                         <li><a href="#" class="header__nav-link">Отзывы</a></li>
                         <li><a href="#" class="header__nav-link">Контакты</a></li>
                     </menu>
-                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <a href="#" class="icon" >
                         <i class="fa fa-bars"></i>
                     </a>
                 </div>
@@ -249,25 +251,29 @@
                 </div>
             </div>
         </div>
-    </footer>
-
-    <section class="copyright">
-        <div class="container">
-            <div class="copyright__inner">
-                <p>© 2017 АВТОВЫКУП</p>
+        <div class="copyright">
+            <div class="container">
+                <div class="copyright__inner">
+                    <p>© 2017 АВТОВЫКУП</p>
+                </div>
             </div>
         </div>
-    </section>
+    </footer>
+
+
+
+    <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous">
+    </script>
+
 
     <script >
-        function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "header__nav") {
-                x.className += " responsive";
-            } else {
-                x.className = "header__nav";
-            }
-        }
+       $('.icon').on('click', function(e){
+           e.preventDefault();
+           $('#myTopnav').toggleClass('responsive');
+       })
     </script>
 
 </body>
