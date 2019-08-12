@@ -420,6 +420,7 @@ li{
 .steps__inner_item-container{
     display: flex;
     align-items: flex-start;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 .steps__inner_item{
@@ -496,6 +497,7 @@ li{
 .recent__inner_item-container{
     display: flex;
     align-items: flex-start;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 .recent__inner_item{
@@ -520,10 +522,10 @@ li{
     height: 178px;
     width: 100%;
     position: absolute;
-    background: url("../img/passat.jpg") no-repeat center;
+    background: url("../img/passat.jpg") no-repeat center / cover;
 }
 .recent__inner_item:nth-of-type(2)::before{
-    background: url("../img/trafic.jpg") no-repeat center;
+    background: url("../img/trafic.jpg") no-repeat center / cover;
 }
 .price2{
     background: url("../img/price-bg.jpg") center no-repeat;
@@ -604,6 +606,7 @@ li{
 .footer__inner{
     display: flex;
     align-content: flex-start;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 .footer-col{
@@ -623,6 +626,7 @@ li{
     left: 0;
 }
 .footer-nav-link{
+    display: block;
     color: #ffffff;
     font-family: "Exo2",sans-serif;
     font-size: 14px;
