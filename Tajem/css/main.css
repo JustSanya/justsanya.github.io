@@ -277,6 +277,28 @@ html {
 .always-centered{
     text-align: center;
 }
+.btn-scroll{
+    display: none;
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+    border: none;
+    font-size: 0;
+    background-color: transparent;
+}
+.btn-scroll::after{
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: url("../img/icons/arrow-up.svg") no-repeat center / 50px, 50px;
+    background-color: white;
+}
+
 .header{
     position: relative;
     margin: 15px 0 -70px;
